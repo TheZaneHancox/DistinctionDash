@@ -55,6 +55,7 @@ public class Nicky_Behaviour : MonoBehaviour {
         if(player_behaviour.jellybeancounter >= 40)
         {
             //purchase item
+            Debug.Log("Purchased Sleep Dart");
             num_jellies -= 40;
         }
     }
@@ -64,6 +65,7 @@ public class Nicky_Behaviour : MonoBehaviour {
         if(player_behaviour.jellybeancounter >= 500)
         {
             //purchase item
+            Debug.Log("Purchased Flame Thrower");
             num_jellies -= 500;
         }
     }
@@ -73,6 +75,7 @@ public class Nicky_Behaviour : MonoBehaviour {
         if(player_behaviour.jellybeancounter >= 100)
         {
             //purchase item
+            Debug.Log("Revived Phil");
             num_jellies -= 100;
         }
     }
@@ -82,6 +85,7 @@ public class Nicky_Behaviour : MonoBehaviour {
         if(player_behaviour.jellybeancounter >= 200)
         {
             //purchase item
+            Debug.Log("Purchased Mystery Powerup");
             num_jellies -= 200;
         }
     }
@@ -91,6 +95,7 @@ public class Nicky_Behaviour : MonoBehaviour {
         if(player_behaviour.jellybeancounter >= 75)
         {
             //purchase item
+            Debug.Log("Purchased Guitar Booster");
             num_jellies -= 75;
         }
     }
@@ -100,6 +105,7 @@ public class Nicky_Behaviour : MonoBehaviour {
         if (player_behaviour.jellybeancounter >= 50)
         {
             //purchase item
+            Debug.Log("Purchased Quest Clue");
             num_jellies -= 50;
         }
     }
